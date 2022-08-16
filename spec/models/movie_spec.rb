@@ -20,8 +20,8 @@ describe Movie do
   end
 
   it 'has a release date' do
-    movie.release_date = 1999
-    expect(movie.release_date).to eq(1999)
+    movie.releasee_date = 1999
+    expect(movie.releasee_date).to eq(1999)
   end
 
   it 'has a director' do
